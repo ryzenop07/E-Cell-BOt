@@ -1,5 +1,6 @@
 from flask import Flask, request
-from bot.whatsapp import handle_message
+from whatsapp import handle_message
+
 
 app = Flask(__name__)
 
